@@ -1,0 +1,193 @@
+/* font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif; */
+
+.item-1 {
+  grid-area: one;
+  border-bottom: 2px solid gray;
+}
+
+.item-2 {
+  grid-area: two;
+  border-bottom: 2px solid gray;
+}
+
+.item-3 {
+  grid-area: three;
+  border-bottom: 2px solid gray;
+}
+
+.item-4 {
+  grid-area: four;
+  border-bottom: 2px solid gray;
+}
+
+.item-5 {
+  grid-area: five;
+  border-bottom: 2px solid gray;
+}
+
+.item-6 {
+  grid-area: six;
+  border-bottom: 2px solid gray;
+}
+
+.item-7 {
+  grid-area: seven;
+  border-bottom: 2px solid gray;
+}
+
+.mob-gird1 {
+  height: auto;
+  width: 100%;
+  grid-template-columns: auto 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "one one"
+    "two three"
+    "four five"
+    "six seven";
+}
+
+.r1-c1 {
+  grid-area: one;
+}
+
+.r1-c2 {
+  grid-area: two;
+}
+
+.r1-c3 {
+  grid-area: three;
+}
+
+.r2-c1 {
+  grid-area: four;
+}
+.r2-c2 {
+  grid-area: five;
+}
+.r2-c3 {
+  grid-area: six;
+}
+.r2-c4 {
+  grid-area: seven;
+}
+.r3-c1 {
+  grid-area: eight;
+}
+.r3-c2 {
+  grid-area: nine;
+}
+.r3-c3 {
+  grid-area: ten;
+}
+.r3-c4 {
+  grid-area: eleven;
+}
+.r4-c1 {
+  grid-area: twelve;
+}
+.r4-c2 {
+  grid-area: thirteen;
+}
+.r4-c3 {
+  grid-area: fourteen;
+}
+.r4-c4 {
+  grid-area: fiveteen;
+}
+.r5-c1 {
+  grid-area: sixteen;
+}
+.r5-c2 {
+  grid-area: seventeen;
+}
+.r5-c3 {
+  grid-area: eighteen;
+}
+.r6-c1 {
+  grid-area: nineteen;
+}
+.r6-c2 {
+  grid-area: twenty;
+}
+.r6-c3 {
+  grid-area: twentyone;
+}
+.r7-c1 {
+  grid-area: twentytwo;
+}
+.r7-c2 {
+  grid-area: twentythree;
+}
+.r7-c3 {
+  grid-area: twentyfour;
+}
+.r8-c1 {
+  grid-area: twentyfive;
+}
+.r8-c2 {
+  grid-area: twentysix;
+}
+
+.mob-grid2 {
+  height: auto;
+  width: 100%;
+  grid-template-columns: 60% 13.33% 13.33% 13.33%;
+  grid-template-columns: auto;
+  grid-template-areas:
+    ". one two three"
+    "four five six seven"
+    "eight nine ten eleven"
+    "twelve thirteen fourteen fiveteen"
+    "sixteen . seventeen eighteen"
+    "nineteen . twenty twentyone"
+    "twentytwo . twentythree twentyfour"
+    "twentyfive . . twentysix";
+}
+
+.yellow {
+  color: #ebbc01;
+}
+
+.orange {
+  color: #ffae5c;
+}
+
+.light-yellow {
+  color: #ffd859;
+}
+
+.black {
+  color: #1d1d1b;
+}
+
+.gray {
+  color: rgba(212, 212, 212);
+}
+
+.cont {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.orng-spot {
+  display: block;
+  background-color: #ffae5c;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  align-self: center;
+}
+
+@media screen and (min-width: 1028px) {
+  .cont {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+.hover:hover {
+  color: #fff;
+  background: #1d1d1b;
+}
