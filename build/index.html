@@ -19,7 +19,7 @@
   <body>
     <header class="border-b-[2px] border-b-gray-700 lg:border-none">
       <nav
-        class="flex w-full h-14 border-solid border-b-[1px] border-b-neutral-500 mb-8"
+        class="flex w-full h-14 bb-gray mb-8 lg:mb-10 sticky top-[0] bg-[#fff]"
       >
         <div class="cont flex items-center justify-between w-full">
           <a href="#"><img class="h-8" src="img/BofLogo.svg" alt="" /></a>
@@ -64,10 +64,13 @@
       </nav>
       <div class="cont flex justify-between">
         <div class="herotext">
-          <span class="font-black font-['Lora'] text-[#1d1d1b] text-4xl"
+          <span
+            class="font-black font-['Lora'] text-[#1d1d1b] text-4xl lg:text-5xl xl:text-6xl"
             >BoF</span
           >
-          <span class="font-black font-['Lora'] text-[#ebbc01] text-4xl">
+          <span
+            class="font-black font-['Lora'] text-[#ebbc01] uppercase text-4xl lg:text-5xl xl:text-6xl"
+          >
             Professional
           </span>
           <div class="mt-4">
@@ -78,7 +81,7 @@
               fashion community.
             </p>
             <p
-              class="hidden font-['Lora'] text-[#1d1d1b] text-2xl font-black lg:block"
+              class="hidden font-['Lora'] text-[#1d1d1b] text-3xl font-black lg:block"
             >
               Join today and enjoy your first 30 days for just $1.
             </p>
@@ -90,172 +93,625 @@
       </div>
     </header>
     <main>
-      <div class="cont w-[97%] mob-gird1 grid">
-        <div class="item-1">
-          <div class="flex flex-col">
-            <h2 class="font-black font-['Lora'] text-[#1d1d1b] text-3xl mt-6">
-              Select your membership
-            </h2>
-            <span
-              class="font-['Lora'] text-[#1d1d1b] text-lg font-medium mb-8 lg:mb-4"
-              >Join today and enjoy your first 30 days for just $1.
-            </span>
-          </div>
-        </div>
-        <div class="item-2">
-          <div class="my-2">
-            <span class="font-['Lora'] text-[#1d1d1b] text-lg font-medium"
-              >Analysis & Advices</span
+      <div class="lg:hidden">
+        <div class="cont block justify-center">
+          <div class="mob-gird1 grid mr-[-2rem] mb-4">
+            <div class="item-1">
+              <div class="flex flex-col">
+                <h2
+                  class="font-black font-['Lora'] text-[#1d1d1b] text-3xl mt-6"
+                >
+                  Select your membership
+                </h2>
+                <span
+                  class="font-['Lora'] text-[#1d1d1b] text-lg font-medium mb-8 lg:mb-4"
+                  >Join today and enjoy your first 30 days for just $1.
+                </span>
+              </div>
+            </div>
+            <div class="item-2">
+              <div class="my-2">
+                <span class="font-['Lora'] text-[#1d1d1b] text-lg font-medium"
+                  >Analysis & Advices</span
+                >
+                <div class="flex">
+                  <div class="flex">
+                    <p class="font-bold text-xl">$</p>
+                    <p class="font-bold text-6xl">1</p>
+                  </div>
+                  <div class="flex flex-col justify-end">
+                    <p class="font-medium">for your first 30 days</p>
+                    <p>then from $19.50 per month</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="item-3 bg-[#ebbc01] w-full px-2 flex justify-center items-center hover-black"
             >
-            <div class="flex">
-              <div class="flex">
-                <p class="font-bold text-xl">$</p>
-                <p class="font-bold text-6xl">1</p>
-              </div>
-              <div class="flex flex-col justify-end">
-                <p class="font-medium">for your first 30 days</p>
-                <p>then from $19.50 per month</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </div>
+            <div class="item-4">
+              <p
+                class="w-fit uppercase p-1 bg-[#1d1d1b] text-[#fff] font-medium mt-2"
+              >
+                Best Value
+              </p>
+              <div class="my-2">
+                <p class="font-['Lora'] text-[#1d1d1b] text-lg font-medium">
+                  All-Acess
+                </p>
+                <div class="flex">
+                  <div class="flex">
+                    <p class="font-bold text-xl">$</p>
+                    <p class="font-bold text-6xl">1</p>
+                  </div>
+                  <div class="flex flex-col justify-end">
+                    <p class="font-medium">for your first 30 days</p>
+                    <p>then from $24.50 per month</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <div
+              class="item-5 bg-[#ebbc01] w-full px-2 flex justify-center items-center hover-black"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </div>
+            <div class="item-6">
+              <div class="my-2">
+                <p class="font-['Lora'] text-[#1d1d1b] text-lg font-medium">
+                  For Teams of 5 or more from
+                </p>
+                <div class="flex">
+                  <div class="flex">
+                    <p class="font-bold text-xl">$</p>
+                    <p class="font-bold text-6xl">19</p>
+                    <p class="font-bold text-xl">.17</p>
+                  </div>
+                  <span class="self-center">per user / month</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="item-7 bg-[#ffae5c] w-full px-2 flex justify-center items-center hover-black"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </div>
           </div>
+          <span class="text-xs">
+            The trial offer is limited to one trial per customer. You can cancel
+            before the end of any payment period.
+          </span>
         </div>
-        <div
-          class="item-3 bg-[#ebbc01] w-full px-2 flex justify-center items-center hover"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-            />
-          </svg>
-        </div>
-        <div class="item-4">
-          <p
-            class="w-fit uppercase p-1 bg-[#1d1d1b] text-[#fff] font-medium mt-2"
-          >
-            Best Value
+        <div class="cont mt-12">
+          <h3 class="text-xl font-medium font-['Lora'] mb-8">
+            Compare membership benefits
+          </h3>
+          <div class="flex justify-end sm:w-[60%] sm:ml-auto">
+            <div class="flex mr-2 sm:w-1/3 justify-center items-center">
+              <span class="r1-c1 text-sm font-bold flex">Analysis & Advice</span
+              ><span class="orng-spot ml-2"></span>
+            </div>
+            <div class="flex mr-2 sm:w-1/3 justify-center items-center">
+              <span class="r1-c1 text-sm font-bold flex"> All-Access</span
+              ><span class="orng-spot ml-2"></span>
+            </div>
+            <div class="flex mr-2 sm:w-1/3 justify-center items-center">
+              <span class="r1-c1 text-sm font-bold flex">Teams</span
+              ><span class="yellow-spot ml-2"></span>
+            </div>
+          </div>
+          <div class="mob-grid2 grid mb-4 bt-black">
+            <span class="r2-c1 bb-gray text-sm py-3 bb-gray"
+              >Daily analysis and advice</span
+            >
+            <div class="r2-c2 bb-gray flex justify-center items-center">
+              <span class="orng-spot"></span>
+            </div>
+            <div class="r2-c3 bb-gray flex justify-center items-center">
+              <span class="orng-spot"></span>
+            </div>
+            <div class="r2-c4 bb-gray flex justify-center items-center">
+              <span class="yellow-spot"></span>
+            </div>
+
+            <span class="r3-c1 bb-gray text-sm py-3"
+              >Members-only email briefings
+            </span>
+            <div class="r3-c2 bb-gray flex justify-center items-center">
+              <span class="orng-spot"></span>
+            </div>
+            <div class="r3-c3 bb-gray flex justify-center items-center">
+              <span class="orng-spot"></span>
+            </div>
+            <div class="r3-c4 bb-gray flex justify-center items-center">
+              <span class="yellow-spot"></span>
+            </div>
+
+            <span class="r4-c1 bb-gray text-sm py-3 bb-gray"
+              >BoF Professional iPhone app
+            </span>
+            <div class="r4-c2 bb-gray flex justify-center items-center">
+              <span class="orng-spot"></span>
+            </div>
+            <div class="r4-c3 bb-gray flex justify-center items-center">
+              <span class="orng-spot"></span>
+            </div>
+            <div class="r4-c4 bb-gray flex justify-center items-center">
+              <span class="yellow-spot"></span>
+            </div>
+
+            <span class="r5-c1 bb-gray text-sm py-3 bb-gray"
+              >In-depth case studies</span
+            >
+            <div class="r5-c2 bb-gray flex items-center pl-[75%]">
+              <span class="orng-spot translatex-4"></span>
+            </div>
+            <div class="r5-c3 bb-gray flex justify-center items-center">
+              <span class="yellow-spot"></span>
+            </div>
+
+            <span class="r6-c1 bb-gray text-sm py-3 bb-gray"
+              >On-demand masterclasses
+            </span>
+            <div class="r6-c2 bb-gray flex items-center pl-[75%]">
+              <span class="orng-spot translatex-4"></span>
+            </div>
+            <div class="r6-c3 bb-gray flex justify-center items-center">
+              <span class="yellow-spot"></span>
+            </div>
+
+            <span class="r7-c1 bb-gray text-sm py-3 bb-gray"
+              >Unmissable digital live events
+            </span>
+            <div class="r7-c2 bb-gray flex items-center pl-[75%]">
+              <span class="orng-spot translatex-4"></span>
+            </div>
+            <div class="r7-c3 bb-gray flex justify-center items-center">
+              <span class="yellow-spot"></span>
+            </div>
+
+            <span class="r8-c1 text-sm py-3 bb-black"
+              >Custom content & volume discounts
+            </span>
+            <div class="r8-c2 bb-black flex items-center pl-[83.33%]">
+              <span class="yellow-spot translatex-4"></span>
+            </div>
+          </div>
+          <p class="text-xs mb-8">
+            We have other memberships for
+            <a href="#" class="text-indigo-400">teams & companies</a> and
+            <a href="#" class="text-indigo-400">students and schools</a>
           </p>
-          <div class="my-2">
-            <p class="font-['Lora'] text-[#1d1d1b] text-lg font-medium">
-              All-Acess
-            </p>
-            <div class="flex">
-              <div class="flex">
-                <p class="font-bold text-xl">$</p>
-                <p class="font-bold text-6xl">1</p>
+        </div>
+      </div>
+
+      <div class="cont hidden lg:flex flex-col items-center mt-20 mb-4">
+        <div class="desk-grid grid items-end max-w-[1400px] mb-12">
+          <div class="col-1 flex flex-col">
+            <span class="font-bold bb-gray pt-[154px] pb-2 pl-2"
+              >Unlimited access to:</span
+            >
+            <span class="bb-gray h-[50px] flex items-center pl-2"
+              >Daily analysis and advice</span
+            >
+            <span class="bb-gray h-[50px] flex items-center pl-2"
+              >Members-only email briefings</span
+            >
+            <span class="bb-gray h-[50px] flex items-center pl-2"
+              >BoF Professional iPhone app
+            </span>
+            <span class="bb-gray h-[50px] flex items-center pl-2"
+              >In-depth case studies
+            </span>
+            <span class="bb-gray h-[50px] flex items-center pl-2"
+              >On-demand masterclasses
+            </span>
+            <span class="bb-gray h-[50px] flex items-center pl-2"
+              >Unmissable digital live events</span
+            >
+            <span class="bb-gray h-[50px] flex items-center pl-2"
+              >Custom content & volume discounts</span
+            >
+          </div>
+          <div class="col-2 flex flex-col border-gray">
+            <div class="bb-gray flex flex-col">
+              <span
+                class="text-center font-['Lora'] text-[#1d1d1b] text-2xl xl:text-3xl font-medium mb-6 mt-4"
+                >Analysis & Advices <br />Membership</span
+              >
+              <div class="flex justify-center">
+                <div class="flex">
+                  <p class="font-bold text-xl">$</p>
+                  <p class="font-bold text-6xl">1</p>
+                </div>
+                <div class="flex flex-col justify-center">
+                  <p class="font-medium">for your first 30 days</p>
+                  <p>then from $19.50 per month</p>
+                </div>
               </div>
-              <div class="flex flex-col justify-end">
-                <p class="font-medium">for your first 30 days</p>
-                <p>then from $24.50 per month</p>
+              <div class="h-[50px] my-4 flex justify-center">
+                <span
+                  class="bg-[#ffd859] w-[75%] text-center py-3 hover-black uppercase font-bold"
+                  >start trial</span
+                >
+              </div>
+            </div>
+            <div class="bb-gray h-[50px] flex justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3.5"
+                stroke="#ebbc01"
+                class="w-7 h-7"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 12.75l6 6 9-13.5"
+                />
+              </svg>
+            </div>
+            <div class="bb-gray h-[50px] flex justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3.5"
+                stroke="#ebbc01"
+                class="w-7 h-7"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 12.75l6 6 9-13.5"
+                />
+              </svg>
+            </div>
+            <div class="bb-gray h-[50px] flex justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3.5"
+                stroke="#ebbc01"
+                class="w-7 h-7"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 12.75l6 6 9-13.5"
+                />
+              </svg>
+            </div>
+            <div class="bb-gray h-[50px]"></div>
+            <div class="bb-gray h-[50px]"></div>
+            <div class="bb-gray h-[50px]"></div>
+            <div class="h-[50px]"></div>
+          </div>
+          <div class="col-3 flex flex-col border-gray z-10 shadow-2xl">
+            <div class="flex flex-col">
+              <div class="flex justify-center bg-[#1d1d1b] text-[#f8fafc]">
+                <span class="uppercase py-2">Best Value</span>
+              </div>
+              <div class="flex flex-col bb-gray">
+                <span
+                  class="text-center font-['Lora'] text-[#1d1d1b] text-2xl xl:text-3xl font-medium mb-6 mt-4"
+                  >All-Acecss <br />Membership</span
+                >
+                <div class="flex justify-center">
+                  <div class="flex">
+                    <p class="font-bold text-xl">$</p>
+                    <p class="font-bold text-6xl">1</p>
+                  </div>
+                  <div class="flex flex-col justify-center">
+                    <p class="font-medium">for your first 30 days</p>
+                    <p>then from $24.50 per month</p>
+                  </div>
+                </div>
+                <div class="h-[50px] my-4 flex justify-center">
+                  <span
+                    class="bg-[#ffd859] w-[75%] text-center py-3 hover-black uppercase font-bold"
+                    >start trial</span
+                  >
+                </div>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ebbc01"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ebbc01"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ebbc01"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ebbc01"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ebbc01"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ebbc01"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="h-[50px]"></div>
+            </div>
+          </div>
+          <div class="col-4 flex flex-col border-gray">
+            <div class="flex flex-col">
+              <div class="flex flex-col bb-gray">
+                <span
+                  class="text-center font-['Lora'] text-[#1d1d1b] text-2xl xl:text-3xl font-medium mb-6 mt-4"
+                  >For Team <br />of 5 or More</span
+                >
+                <div class="flex justify-center">
+                  <p>from</p>
+                  <p class="font-bold text-xl">$</p>
+                  <p class="font-bold text-6xl">19</p>
+                  <p class="font-bold text-xl">.17</p>
+                  <p>per user /month</p>
+                </div>
+                <div class="h-[50px] my-4 flex justify-center">
+                  <span
+                    class="bg-[#ffae5c] w-[75%] text-center py-3 hover-black uppercase font-bold"
+                    >Find out more</span
+                  >
+                </div>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ffae5c"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ffae5c"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ffae5c"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ffae5c"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ffae5c"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bb-gray h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ffae5c"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="h-[50px] flex justify-center items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="3.5"
+                  stroke="#ffae5c"
+                  class="w-7 h-7"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
               </div>
             </div>
           </div>
         </div>
-        <div
-          class="item-5 bg-[#ebbc01] w-full px-2 flex justify-center items-center hover"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-            />
-          </svg>
-        </div>
-        <div class="item-6">
-          <div class="my-2">
-            <p class="font-['Lora'] text-[#1d1d1b] text-lg font-medium">
-              For Teams of 5 or more from
-            </p>
-            <div class="flex">
-              <div class="flex">
-                <p class="font-bold text-xl">$</p>
-                <p class="font-bold text-6xl">19</p>
-                <p class="font-bold text-xl">.17</p>
-              </div>
-              <span class="self-center">per user / month</span>
-            </div>
+        <div class="mb-20">
+          <p class="text-center">
+            The trial offer is limited to one trial per customer. You can cancel
+            before the end of any payment period.
+          </p>
+          <p class="font-['Lora'] font-bold text-center text-2xl mt-10 mb-6">
+            Other Memberships
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="border-black font-medium text-center uppercase hover-black border-2 px-10 py-3 mr-6"
+            >
+              teams & companies
+            </button>
+            <button
+              class="border-black font-medium text-center uppercase hover-black border-2 px-10 py-3 ml-6"
+            >
+              students & schools
+            </button>
           </div>
-        </div>
-        <div
-          class="item-7 bg-[#ffae5c] w-full px-2 flex justify-center items-center hover"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-            />
-          </svg>
-        </div>
-      </div>
-      <div class="cont text-xs mt-4">
-        The trial offer is limited to one trial per customer. You can cancel
-        before the end of any payment period.
-      </div>
-      <div class="cont font-medium font-['Lora'] mt-4">
-        <h3>Compare membership benefits</h3>
-        <div class="mob-grid2 grid">
-          <span class="r1-c1 text-sm font-bold flex">
-            Analysis & Advice <span class="orng-spot"></span>
-          </span>
-          <span class="r1-c2 text-sm font-bold flex">
-            All-Access <span class="orng-spot"></span>
-          </span>
-          <span class="r1-c3 text-sm font-bold flex">
-            Teams <span class="orng-spot"></span>
-          </span>
-          <span class="r2-c1 text-sm">Daily analysis and advice</span
-          ><span class="r2-c2 orng-spot"></span
-          ><span class="r2-c3 orng-spot"></span
-          ><span class="r2-c4 orng-spot"></span>
-
-          <span class="r3-c1 text-sm">Members-only email briefings </span
-          ><span class="r3-c2 orng-spot"></span
-          ><span class="r3-c3 orng-spot"></span
-          ><span class="r3-c4 orng-spot"></span>
-
-          <span class="r4-c1 text-sm">BoF Professional iPhone app </span
-          ><span class="r4-c2 orng-spot"></span
-          ><span class="r4-c3 orng-spot"></span
-          ><span class="r4-c4 orng-spot"></span>
-
-          <span class="r5-c1 text-sm">In-depth case studies </span
-          ><span class="r5-c2 orng-spot"></span
-          ><span class="r5-c3 orng-spot"></span>
-
-          <span class="r6-c1 text-sm">On-demand masterclasses </span
-          ><span class="r6-c2 orng-spot"></span
-          ><span class="r6-c3 orng-spot"></span>
-
-          <span class="r7-c1 text-sm">Unmissable digital live events </span
-          ><span class="r7-c2 orng-spot"></span
-          ><span class="r7-c3 orng-spot"></span>
-
-          <span class="r8-c1 text-sm">Custom content & volume discounts </span
-          ><span class="r8-c2 orng-spot"></span>
         </div>
       </div>
       <!-- <div class="cont mt-8">
