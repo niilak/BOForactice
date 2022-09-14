@@ -17,10 +17,10 @@
     <title>project</title>
   </head>
   <body>
-    <header class="border-b-[2px] border-b-gray-700 lg:border-none">
-      <nav
-        class="flex w-full h-14 bb-gray mb-8 lg:mb-10 sticky top-[0] bg-[#fff]"
-      >
+    <header
+      class="border-b-gray-700 lg:border-none sticky top-[0] bg-[#fff] z-[999]"
+    >
+      <nav class="flex w-full h-14 bb-gray mb-8 lg:mb-10">
         <div class="cont flex items-center justify-between w-full">
           <a href="#"><img class="h-8" src="img/BofLogo.svg" alt="" /></a>
           <div class="flex items-center">
@@ -62,7 +62,9 @@
           </div>
         </div>
       </nav>
-      <div class="cont flex justify-between">
+    </header>
+    <main>
+      <div class="cont flex justify-between border-b-[2px]">
         <div class="herotext">
           <span
             class="font-black font-['Lora'] text-[#1d1d1b] text-4xl lg:text-5xl xl:text-6xl"
@@ -91,11 +93,9 @@
           <img class="max-h-48" src="img/sell_page.png" alt="" />
         </div>
       </div>
-    </header>
-    <main>
-      <div class="lg:hidden">
-        <div class="cont block justify-center">
-          <div class="mob-gird1 grid mr-[-2rem] mb-4">
+      <div class="cont lg:hidden">
+        <div class="block justify-center mr-[-1rem]">
+          <div class="mob-gird1 grid mb-4">
             <div class="item-1">
               <div class="flex flex-col">
                 <h2
@@ -714,8 +714,8 @@
           </div>
         </div>
       </div>
-      <!-- <div class="cont mt-8">
-        <div class="flex flex-col">
+      <div class="cont mt-8">
+        <div class="flex flex-col text-center">
           <span class="font-black font-['Lora'] text-[#1d1d1b] text-3xl"
             >Risk-Free Trial Guarantee</span
           >
@@ -725,7 +725,144 @@
             first 30 days in your account setting
           </span>
         </div>
-      </div> -->
+        <div class="mb-8 lg:justify-center lg:flex">
+          <div class="lg:hidden trial-grid grid">
+            <div class="trial1 flex flex-col items-center">
+              <div class="circle flex items-center justify-center bg-[#ebbc01]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bg-[#ebbc01] h-[100%] w-[0.3rem]"></div>
+            </div>
+            <div class="trial2 flex flex-col items-center">
+              <div class="circle flex items-center justify-center bg-[#ebbc01]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M14.5 1A4.5 4.5 0 0010 5.5V9H3a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-1.5V5.5a3 3 0 116 0v2.75a.75.75 0 001.5 0V5.5A4.5 4.5 0 0014.5 1z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="bg-[#ebbc01] h-[100%] w-[0.3rem]"></div>
+              <div class="bg-[#d4d4d4] h-[100%] w-[0.3rem]"></div>
+            </div>
+            <div class="trial3 flex flex-col items-center">
+              <div class="circle bg-[#d4d4d4]"></div>
+              <div class="bg-[#d4d4d4] h-[100%] w-[0.3rem]"></div>
+            </div>
+            <div class="trial4 flex flex-col items-center">
+              <div class="circle bg-[#d4d4d4]"></div>
+              <div class="h-[100%] w-[0.3rem]"></div>
+            </div>
+            <div class="trial5 text-[#d4d4d4] pb-6 max-w-[15rem]">
+              <p class="font-bold">Register an account</p>
+              <p>You successfully created your profile</p>
+            </div>
+            <div class="trial6 pb-6 max-w-[15rem]">
+              <p class="font-bold">Today: Get Instant Access</p>
+              <p>Analysis & advice you won't find anywhere else</p>
+            </div>
+            <div class="trial7 pb-6 max-w-[15rem]">
+              <p class="font-bold">Day 23: We'll Remind You</p>
+              <p>
+                We'll send you an email about your upcoming payment Cancel
+                anytime in just 15 seconds
+              </p>
+            </div>
+            <div class="trial8 max-w-[15rem]">
+              <p class="font-bold">Day 30: Trial Ends</p>
+              <p>Your membership will start upon your first payment</p>
+            </div>
+          </div>
+          <div class="trial-grid-desk hidden lg:grid">
+            <div class="trial1a flex items-center">
+              <div class="h-[0.3rem] w-[100%]"></div>
+              <div class="circle flex items-center justify-center bg-[#ebbc01]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+              </div>
+              <div class="bg-[#ebbc01] h-[0.3rem] w-[100%]"></div>
+            </div>
+            <div class="trial2a flex items-center">
+              <div class="bg-[#ebbc01] h-[0.3rem] w-[100%]"></div>
+              <div class="circle flex items-center justify-center bg-[#ebbc01]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M14.5 1A4.5 4.5 0 0010 5.5V9H3a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-1.5V5.5a3 3 0 116 0v2.75a.75.75 0 001.5 0V5.5A4.5 4.5 0 0014.5 1z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="bg-[#ebbc01] h-[0.3rem] w-[100%]"></div>
+            </div>
+            <div class="trial3a flex items-center">
+              <div class="bg-[#d4d4d4] h-[0.3rem] w-[100%]"></div>
+              <div class="circle bg-[#d4d4d4]"></div>
+              <div class="bg-[#d4d4d4] h-[0.3rem] w-[100%]"></div>
+            </div>
+            <div class="trial4a flex items-center">
+              <div class="bg-[#d4d4d4] h-[0.3rem] w-[100%]"></div>
+              <div class="circle bg-[#d4d4d4]"></div>
+              <div class="h-[0.3rem] w-[100%]"></div>
+            </div>
+            <div class="triala5 text-[#d4d4d4] py-6 pl-8">
+              <p class="font-bold">Register an account</p>
+              <p>You successfully created your profile</p>
+            </div>
+            <div class="triala6 py-6 pl-8">
+              <p class="font-bold">Today: Get Instant Access</p>
+              <p>Analysis & advice you won't find anywhere else</p>
+            </div>
+            <div class="triala7 py-6 pl-8">
+              <p class="font-bold">Day 23: We'll Remind You</p>
+              <p>
+                We'll send you an email about your upcoming payment Cancel
+                anytime in just 15 seconds
+              </p>
+            </div>
+            <div class="triala8 pt-6 pl-8">
+              <p class="font-bold">Day 30: Trial Ends</p>
+              <p>Your membership will start upon your first payment</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>
