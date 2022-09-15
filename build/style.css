@@ -3,37 +3,37 @@ font-family: 'Open Sans', sans-serif; */
 
 .item-1 {
   grid-area: one;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .item-2 {
   grid-area: two;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .item-3 {
   grid-area: three;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .item-4 {
   grid-area: four;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .item-5 {
   grid-area: five;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .item-6 {
   grid-area: six;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .item-7 {
   grid-area: seven;
-  border-bottom: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .mob-gird1 {
@@ -219,6 +219,10 @@ font-family: 'Open Sans', sans-serif; */
   border-radius: 50%;
 }
 
+.companies-grid {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto;
+}
 /* CLASS */
 
 .yellow {
@@ -269,7 +273,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .bb-black {
-  border-bottom: solid 2px #1d1d1b;
+  border-bottom: solid 1px #1d1d1b;
 }
 
 .bt-black {
@@ -277,7 +281,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .bb-gray {
-  border-bottom: solid 1px #d4d4d4;
+  border-bottom: solid 2px #d4d4d4;
 }
 
 .translatex-4 {
@@ -287,6 +291,16 @@ font-family: 'Open Sans', sans-serif; */
 .hover-black:hover {
   color: #fff;
   background: #1d1d1b;
+}
+
+.hover-white:hover {
+  color: #1d1d1b;
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* MEDIA */
