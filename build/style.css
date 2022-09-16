@@ -286,6 +286,10 @@ font-family: 'Open Sans', sans-serif; */
   border-bottom: solid 2px #d4d4d4;
 }
 
+.bb-gray1 {
+  border-bottom: solid 1px #d4d4d4;
+}
+
 .translatex-4 {
   transform: translateX(-4px);
 }
@@ -303,6 +307,10 @@ font-family: 'Open Sans', sans-serif; */
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown:hover .dropdown-nav {
+  display: flex;
 }
 
 /* MEDIA */
